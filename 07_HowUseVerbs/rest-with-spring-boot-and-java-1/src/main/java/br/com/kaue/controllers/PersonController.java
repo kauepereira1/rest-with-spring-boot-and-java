@@ -25,7 +25,6 @@ public class PersonController {
         if(!isNumeric(numeroUm) || !isNumeric(numeroDois)) {
             throw new UnsuportedMathOperationException("Please set a numeric value");
         }
-
         //Convertendo e somando os dois numero
         return math.soma(convertToDouble(numeroUm), convertToDouble(numeroDois));
     }
