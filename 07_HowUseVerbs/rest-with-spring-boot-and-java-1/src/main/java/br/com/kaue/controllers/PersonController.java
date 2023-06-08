@@ -29,5 +29,4 @@ public class PersonController {
         //Convertendo e somando os dois numero
         return math.soma(convertToDouble(numeroUm), convertToDouble(numeroDois));
     }
-
 }
