@@ -2,7 +2,6 @@ package br.com.kaue.controllers;
 
 import br.com.kaue.exceptions.UnsuportedMathOperationException;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
